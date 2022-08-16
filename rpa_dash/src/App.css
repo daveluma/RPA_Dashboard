@@ -2,10 +2,6 @@
   font-family: Roboto, sans-serif;  
 }
 
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -15,6 +11,27 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.automationPref {
+  display: inline-block;
+  vertical-align: text-top;
+  margin: 0 auto;
+}
+
+.divPadding {
+  padding: 2.5%;
+  
+}
+
+.divPadding2 {
+  padding: 2%;
+  float: center;
+  white-space: nowrap;
+}
+
+.nav {
+  background-color: #00528f;
 }
 
 .App-header {
