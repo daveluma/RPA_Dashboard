@@ -1,5 +1,9 @@
 import unattended from '../assets/unattended.png';
 import attended from '../assets/attended.png';
+import Placeholder from '../assets/placeholder.jpeg';
+import '../App.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 function AutomationDetail() {
     return (
@@ -27,8 +31,8 @@ function AutomationDetail() {
 
         <div>
             {/**General Information */}
-            <h1 className='divPadding2'>General Information</h1>
             <div className='automationPref divPadding2'>
+            <h1 className='divPadding2'>General Information</h1> <br/>
                 <h3 className='divPadding2'>{'Automation Id:'}</h3>
 
                 <h3 className='divPadding2'>{'Process Owner(s)'}:</h3>
@@ -62,6 +66,20 @@ function AutomationDetail() {
                 </div>
                 <div className='divPadding2'>
                     <h2>Suggested Action Carousel</h2>
+                    <Carousel>
+                        <div>
+                            <img className="carView" src={Placeholder} />
+                            <p className="carView">Legend 1</p>
+                        </div>
+                        <div>
+                            <img className="carView" src={Placeholder} />
+                            <p className="carView">Legend 2</p>
+                        </div>
+                        <div>
+                            <img className="carView" src={Placeholder} />
+                            <p className="carView">Legend 3</p>
+                        </div>
+                    </Carousel>
                 </div>
             </div>
 

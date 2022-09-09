@@ -13,6 +13,11 @@
   }
 }
 
+.carView {
+  height: 40px;
+  width: 40px;
+}
+
 .automationPref {
   display: inline-block;
   vertical-align: text-top;
